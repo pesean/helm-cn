@@ -4,4 +4,4 @@ services:
   - docker
 
 before_install:
-    - docker pull k8s.gcr.io/kube-apiserver-amd64:v1.11.2
+    - sudo docker pull k8s.gcr.io/kube-apiserver-amd64:v1.11.2
